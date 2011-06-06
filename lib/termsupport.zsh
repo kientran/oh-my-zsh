@@ -17,7 +17,7 @@ ZSH_THEME_TERM_TITLE_IDLE="%n@%m: %~"
 
 #Appears when you have the prompt
 function precmd {
-  title $ZSH_THEME_TERM_TAB_TITLE_IDLE $ZSH_THEME_TERM_TITLE_IDLE
+  title $ZSH_THEME_TERM_TITLE_IDLE
 }
 
 #Appears at the beginning of (and during) of command execution
